@@ -5,9 +5,11 @@ student = {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci']}
 print(student)
 print(student['name'])  # To display any value
 
-print(student.get('phone'))  # If key is not present in dictionay then it will display none useing get method else it would have thrown error.
+print(student.get(
+    'phone'))  # If key is not present in dictionay then it will display none useing get method else it would have thrown error.
 
-print(student.get('phone', 'Not Found'))  # If the key is not found we can set default value for it, as we have set 'Not Found' over here.
+print(student.get('phone',
+                  'Not Found'))  # If the key is not found we can set default value for it, as we have set 'Not Found' over here.
 
 # Add a key to the dictionary
 student['phone'] = '123456789'

@@ -14,7 +14,7 @@ print(3 / 2)
 print(3 // 2)
 
 # Expomene
-print(3**2)
+print(3 ** 2)
 
 # Modulus
 print(3 % 2)

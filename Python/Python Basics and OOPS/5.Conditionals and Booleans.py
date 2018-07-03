@@ -1,4 +1,3 @@
-
 lang = 'Java'
 
 if lang == 'Python':
@@ -21,7 +20,7 @@ else:
 # Is method example
 a = [1, 2, 3]
 b = [1, 2, 3]
-print(a in b)   # it will show false as they are stored in different memory
+print(a in b)  # it will show false as they are stored in different memory
 
 print(id(a))
 print(id(b))

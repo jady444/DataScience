@@ -23,7 +23,7 @@ message = 'Justice League'
 print(message[1:5])
 print(message[6:])  # this will start from 7th character and will display till end
 print(message[:5])  # this will start the string from staring and will display till 6th character
-print(message[2:-1])    # this means it will start from 3rd character and display till last second character
+print(message[2:-1])  # this means it will start from 3rd character and display till last second character
 
 # Upper case and lower case
 message = 'PyThoN'
@@ -33,7 +33,7 @@ print(message.upper())  # upper case all the characters
 # Find index where the character or word starts from
 message = 'Hello World'
 print(message.find('lo'))
-print(message.find('world'))    # returns -1 as the word/letter does not match
+print(message.find('world'))  # returns -1 as the word/letter does not match
 
 # Replace the string
 message = 'Hello World'

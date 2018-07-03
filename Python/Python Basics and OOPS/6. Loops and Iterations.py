@@ -1,4 +1,3 @@
-
 nums = [1, 2, 3, 4, 5]
 
 for num in nums:
@@ -10,7 +9,7 @@ for num in nums:
     if num == 3:
         print("Found!")
         break
-    print(num)      # here it did not went to print statement after break and stoped after break point
+    print(num)  # here it did not went to print statement after break and stoped after break point
 
 # Continue condition example in for loops
 
@@ -18,7 +17,7 @@ for num in nums:
     if num == 3:
         print("Found!")
         continue
-    print(num)      # here it found the condition 3 and for it, it displayed "Found" and then continue with the for loop
+    print(num)  # here it found the condition 3 and for it, it displayed "Found" and then continue with the for loop
 
 # Nested loop
 
@@ -28,7 +27,7 @@ for num in nums:
         print(num, letter)
 
 # Built in range function
-for i in range(10):     # it will start from 0 and will loop till 9
+for i in range(10):  # it will start from 0 and will loop till 9
     print(i)
 
 for i in range(1, 10):  # it will start from 1 and will loop till 9
